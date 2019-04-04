@@ -1,0 +1,47 @@
+.comment-container{
+  max-height: 500px;
+
+}
+.col{
+  padding: 50px 50px 50px 50px;
+}
+.comments{
+  max-height: 500px;
+  overflow-y:scroll;
+}
+.comment-date{
+  padding-left: 5px;
+  font-style: italic;
+  font-size: .8em;
+}
+.guage-chart-container{
+  /* max-height: 500px; */
+  boder: 1px solid black;
+}
+#guage{
+  width: 400px;
+  height: 320px;
+}
+
+.donation-grid{
+  display: block;
+}
+.table-date{
+  font-style: italic;
+  font-size: .8em;
+}
+.donation-grid{
+  padding: 50px 50px 50px 50px;
+}
+
+th {
+    cursor: pointer;
+}
+h2 {
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+.form-container{
+  max-width: 600px;
+  margin:0 auto;
+}

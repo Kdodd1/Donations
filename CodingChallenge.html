@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coding Challenge Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src= "http://bernii.github.io/gauge.js/dist/gauge.min.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "dashboard.css" />
+    <script type="text/javascript" src="dashboard.js"/></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="raphael-2.1.4.min.js"></script>
+<script src="justgage.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Logo</a>
+        <span class="navbar-text flex-grow-1 text-right">
+          Welcome, Kyle Dodd
+        </span>
+      </nav>
+      <div class="row">
+        <!-- Comment Box -->
+          <div class="col comment-container">
+            <h2>Comments</h2>
+            <!-- Comment #1 -->
+            <div class="comments">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                            <p class="text-secondary text-center">15 Minutes Ago</p>
+                        </div>
+                        <div class="col-md-10">
+                            <p>
+                                <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                <span class="float-left comment-date">April 3, 2018</span>
+                           </p>
+                           <div class="clearfix"></div>
+                            <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <!-- Comment #2 -->
+             <div class="card">
+                 <div class="card-body">
+                     <div class="row">
+                         <div class="col-md-2">
+                             <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                             <p class="text-secondary text-center">15 Minutes Ago</p>
+                         </div>
+                         <div class="col-md-10">
+                             <p>
+                                 <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                 <span class="float-left comment-date">April 3, 2018</span>
+                            </p>
+                            <div class="clearfix"></div>
+                             <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                         </div>
+                     </div>
+                 </div>
+              </div>
+              <!-- Comment #3 -->
+              <div class="card">
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-md-2">
+                              <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                              <p class="text-secondary text-center">15 Minutes Ago</p>
+                          </div>
+                          <div class="col-md-10">
+                              <p>
+                                  <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                  <span class="float-left comment-date">April 3, 2018</span>
+                             </p>
+                             <div class="clearfix"></div>
+                              <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                          </div>
+                      </div>
+                  </div>
+               </div>
+               <!-- Comment #4 -->
+               <div class="card">
+                   <div class="card-body">
+                       <div class="row">
+                           <div class="col-md-2">
+                               <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                               <p class="text-secondary text-center">15 Minutes Ago</p>
+                           </div>
+                           <div class="col-md-10">
+                               <p>
+                                   <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                   <span class="float-left comment-date">April 3, 2018</span>
+                              </p>
+                              <div class="clearfix"></div>
+                               <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+                <!-- Comment #5 -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                <p class="text-secondary text-center">15 Minutes Ago</p>
+                            </div>
+                            <div class="col-md-10">
+                                <p>
+                                    <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                    <span class="float-left comment-date">April 3, 2018</span>
+                               </p>
+                               <div class="clearfix"></div>
+                                <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- Comment #6 -->
+                 <div class="card">
+                     <div class="card-body">
+                         <div class="row">
+                             <div class="col-md-2">
+                                 <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                 <p class="text-secondary text-center">15 Minutes Ago</p>
+                             </div>
+                             <div class="col-md-10">
+                                 <p>
+                                     <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                     <span class="float-left comment-date">April 3, 2018</span>
+                                </p>
+                                <div class="clearfix"></div>
+                                 <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                             </div>
+                         </div>
+                     </div>
+                  </div>
+                  <!-- Comment #7 -->
+                  <div class="card">
+                      <div class="card-body">
+                          <div class="row">
+                              <div class="col-md-2">
+                                  <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                  <p class="text-secondary text-center">15 Minutes Ago</p>
+                              </div>
+                              <div class="col-md-10">
+                                  <p>
+                                      <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                      <span class="float-left comment-date">April 3, 2018</span>
+                                 </p>
+                                 <div class="clearfix"></div>
+                                  <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                              </div>
+                          </div>
+                      </div>
+                   </div>
+                   <!-- Comment #8 -->
+                   <div class="card">
+                       <div class="card-body">
+                           <div class="row">
+                               <div class="col-md-2">
+                                   <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                   <p class="text-secondary text-center">15 Minutes Ago</p>
+                               </div>
+                               <div class="col-md-10">
+                                   <p>
+                                       <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                       <span class="float-left comment-date">April 3, 2018</span>
+                                  </p>
+                                  <div class="clearfix"></div>
+                                   <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                               </div>
+                           </div>
+                       </div>
+                    </div>
+                    <!-- Comment #9 -->
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                    <p class="text-secondary text-center">15 Minutes Ago</p>
+                                </div>
+                                <div class="col-md-10">
+                                    <p>
+                                        <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                        <span class="float-left comment-date">April 3, 2018</span>
+                                   </p>
+                                   <div class="clearfix"></div>
+                                    <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <!-- Comment #10 -->
+                     <div class="card">
+                         <div class="card-body">
+                             <div class="row">
+                                 <div class="col-md-2">
+                                     <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                     <p class="text-secondary text-center">15 Minutes Ago</p>
+                                 </div>
+                                 <div class="col-md-10">
+                                     <p>
+                                         <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                         <span class="float-left comment-date">April 3, 2018</span>
+                                    </p>
+                                    <div class="clearfix"></div>
+                                     <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                 </div>
+                             </div>
+                         </div>
+                      </div>
+                      <!-- Comment #11 -->
+                      <div class="card">
+                          <div class="card-body">
+                              <div class="row">
+                                  <div class="col-md-2">
+                                      <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                      <p class="text-secondary text-center">15 Minutes Ago</p>
+                                  </div>
+                                  <div class="col-md-10">
+                                      <p>
+                                          <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                          <span class="float-left comment-date">April 3, 2018</span>
+                                     </p>
+                                     <div class="clearfix"></div>
+                                      <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                  </div>
+                              </div>
+                          </div>
+                       </div>
+                       <!-- Comment #12 -->
+                       <div class="card">
+                           <div class="card-body">
+                               <div class="row">
+                                   <div class="col-md-2">
+                                       <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid"/>
+                                       <p class="text-secondary text-center">15 Minutes Ago</p>
+                                   </div>
+                                   <div class="col-md-10">
+                                       <p>
+                                           <a class="float-left" href="#"><strong>Kyle Dodd</strong></a>
+                                           <span class="float-left comment-date">April 3, 2018</span>
+                                      </p>
+                                      <div class="clearfix"></div>
+                                       <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+             <!-- End of comment box -->
+            </div>
+            </div
+        </div>
+
+        <!-- Guage Chart -->
+          <div class="col guage-chart-container">
+            <h2>Goal</h2>
+            <div id="gauge" style="width:500px; height:420px"></div>
+            <script>
+              var g = new JustGage({
+                id: "gauge",
+                value: 45052.1,
+                min: 0,
+                max: 300000,
+                title: "Donations"
+              });
+
+            </script>
+          </div>
+        </div>
+        <!-- End of Guage Chart -->
+        <!-- Dontation Grid -->
+        <div class="donation-grid">
+          <h2>Donations</h2>
+          <table id="table" class="table table-condensed table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Donation <span class="table-date">(U.S. Currency)</span></th>
+                    <th>Donation Date <span class="table-date">(yyyy-mm-dd)</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Joe So</td>
+                    <td>10000.00</td>
+                    <td>2018/01/05</td>
+                </tr>
+                <tr>
+                    <td>Lary Mclary</td>
+                    <td>23000.00</td>
+                    <td>2017/12/31</td>
+                </tr>
+                <tr>
+                    <td>George Jungale</td>
+                    <td>5.25</td>
+                    <td>2015/11/05</td>
+                </tr>
+                <tr>
+                    <td>Sarah Clara</td>
+                    <td>38.85</td>
+                    <td>2018/01/21</td>
+                </tr>
+                <tr>
+                    <td>Mario Luigi</td>
+                    <td>12000.00</td>
+                    <td>2018/01/10</td>
+                </tr>
+                <tr>
+                    <td>Mervin Lervin</td>
+                    <td>8.00</td>
+                    <td>2018/02/01</td>
+                </tr>
+
+            </tbody>
+          </table>
+          <div id="piechart"></div>
+          <script type="text/javascript">
+            $('th').click(function(){
+                var table = $(this).parents('table').eq(0)
+                var rows = table.find('tr:gt(0)').toArray().sort(comparer($(this).index()))
+                this.asc = !this.asc
+                if (!this.asc){rows = rows.reverse()}
+                for (var i = 0; i < rows.length; i++){table.append(rows[i])}
+            })
+            function comparer(index) {
+                return function(a, b) {
+                    var valA = getCellValue(a, index), valB = getCellValue(b, index)
+                    return $.isNumeric(valA) && $.isNumeric(valB) ? valA - valB : valA.toString().localeCompare(valB)
+                }
+            }
+            function getCellValue(row, index){ return $(row).children('td').eq(index).text() }
+            //get donation total
+            var table = document.getElementById("table");
+            var sumVal = 0;
+            for(var i = 1; i < table.rows.length; i++){
+              console.log(parseFloat(table.rows[i].cells[1].innerHTML));
+              sumVal = sumVal + parseFloat(table.rows[i].cells[1].innerHTML);
+            }
+            console.log(sumVal);
+
+            </script>
+
+        <!-- End of Donation Grid -->
+        <!-- Form -->
+        <div class="form-container">
+          <div class="form">
+            <div class="form-group">
+              <label for="usr">Name:</label>
+              <input type="text" class="form-control" name="name" id="name">
+            </div>
+            <div class="form-group">
+              <label for="usr">Donation:</label>
+              <input type="text" class="form-control" name="donation" id="donation">
+            </div>
+            <div class="form-group">
+              <label for="usr">Donation Date:</label>
+              <input type="text" class="form-control" name="date" id="date">
+            </div>
+            <button onclick="addHtmlTableRow();">Add</button>
+        </div>
+            <script type="text/javascript">
+
+              //add row
+              function addHtmlTableRow() {
+                var table = document.getElementById("table"),
+                newRow = table.insertRow(table.length),
+                cell1 = newRow.insertCell(0),
+                cell2 = newRow.insertCell(1),
+                cell3 = newRow.insertCell(2);
+                name = document.getElementById("name").value,
+                donation = document.getElementById("donation").value,
+                date = document.getElementById("date").value;
+
+                cell1.innerHTML = name;
+                cell2.innerHTML = donation;
+                cell3.innerHTML = date;
+              }
+            </script>
+        </div>
+ </div>
+  </body>
+</html>
